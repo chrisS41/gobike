@@ -1,5 +1,11 @@
 # 로그 파일 제외
-*.log
+server/logs/
+server/**/*.log
 
 # 설정 파일 제외
-*.env
+server/config/*.env
+!server/config/*.env.example
+
+# IDE 설정 파일
+.idea/
+.vscode/
