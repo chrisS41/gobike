@@ -9,3 +9,6 @@ server/config/*.env
 # IDE 설정 파일
 .idea/
 .vscode/
+
+# 실행 파일 제외
+server/gobike-server
